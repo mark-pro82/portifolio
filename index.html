@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Set & Viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>G.Mark · Full Stack Developer & UI/UX Designer</title>
+    <meta name="title" content="G.Mark · Full Stack Developer & UI/UX Designer Portfolio">
+    <meta name="description" content="Welcome to G.Mark's portfolio — Full Stack Developer, UI/UX Designer, and creative problem solver. Explore my projects, services, and let's build something amazing together.">
+    <meta name="keywords" content="G.Mark, portfolio, full stack developer, UI/UX designer, web developer, Rwanda, Kigali, software engineer, React developer, Node.js, MongoDB, Monixi Technology">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="G.Mark (Gisubizo Marc)">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://monixitechnologydev.space/">
+    <meta property="og:title" content="G.Mark · Full Stack Developer & UI/UX Designer">
+    <meta property="og:description" content="Welcome to G.Mark's portfolio — Full Stack Developer, UI/UX Designer, and creative problem solver. Explore my projects, services, and let's build something amazing together.">
+    <meta property="og:image" content="https://monixitechnologydev.space/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="G.Mark Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://monixitechnologydev.space/">
+    <meta name="twitter:title" content="G.Mark · Full Stack Developer & UI/UX Designer">
+    <meta name="twitter:description" content="Welcome to G.Mark's portfolio — Full Stack Developer, UI/UX Designer, and creative problem solver.">
+    <meta name="twitter:image" content="https://monixitechnologydev.space/assets/og-image.jpg">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:creator" content="@yourtwitterhandle">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#333131">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="G.Mark Portfolio">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="RW">
+    <meta name="geo.placename" content="Kigali">
+    <meta name="geo.position" content="-1.9441;30.0619">
+    <meta name="ICBM" content="-1.9441, 30.0619">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/mylogo.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://monixitechnologydev.space/">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "G.Mark",
+      "givenName": "Gisubizo",
+      "familyName": "Marc",
+      "url": "https://monixitechnologydev.space",
+      "jobTitle": "Full Stack Developer & UI/UX Designer",
+      "description": "Passionate software developer focused on creating efficient applications and meaningful digital experiences.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kigali",
+        "addressCountry": "Rwanda"
+      },
+      "sameAs": [
+        "https://www.instagram.com/mark__dir/",
+        "https://www.youtube.com/@Monixi_Technology",
+        "https://web.facebook.com/gisubizo.marc.71"
+      ]
+    }
+    </script>
+    
+    <!-- Website Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://monixitechnologydev.space",
+      "name": "G.Mark Portfolio",
+      "description": "Full Stack Developer & UI/UX Designer Portfolio",
+      "author": {
+        "@type": "Person",
+        "name": "G.Mark"
+      }
+    }
+    </script>
+</head>
+<body>
+
+<!-- ===== MARK LOADER with your root colors ===== -->
+<div class="loader-wrapper" id="loadingScreen">
+  <div class="loader">
+    <!-- SVG DEFINITIONS with your gradient -->
+    <svg width="0" height="0">
+      <defs>
+        <linearGradient id="g1" y1="0" y2="1">
+          <stop offset="0%" stop-color="#ff3aff"/>
+          <stop offset="100%" stop-color="#f53cf5"/>
+        </linearGradient>
+        <linearGradient id="g2" y1="0" y2="1">
+          <stop offset="0%" stop-color="#f53cf5"/>
+          <stop offset="100%" stop-color="#ff3aff"/>
+        </linearGradient>
+        <linearGradient id="g3" y1="0" y2="1">
+          <stop offset="0%" stop-color="#ff3aff"/>
+          <stop offset="100%" stop-color="#f53cf5"/>
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <!-- M -->
+    <svg viewBox="0 0 64 64" width="64" height="64" class="inline-block">
+      <path d="M4 56V8h10l14 24L42 8h10v48"
+            stroke="url(#g1)"
+            stroke-width="8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"
+            class="dash"
+            pathLength="360"/>
+    </svg>
+
+    <!-- A (Circle Spin) -->
+    <svg viewBox="0 0 64 64" width="64" height="64" class="inline-block">
+      <path d="M32 5a27 27 0 1 1 0 54a27 27 0 1 1 0-54"
+            stroke="url(#g2)"
+            stroke-width="10"
+            fill="none"
+            class="spin"
+            pathLength="360"/>
+    </svg>
+
+    <!-- R -->
+    <svg viewBox="0 0 64 64" width="64" height="64" class="inline-block">
+      <path d="M8 56V8h20c10 0 16 6 16 14s-6 14-16 14H8m20 0l16 20"
+            stroke="url(#g3)"
+            stroke-width="8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"
+            class="dash"
+            pathLength="360"/>
+    </svg>
+
+    <!-- K -->
+    <svg viewBox="0 0 64 64" width="64" height="64" class="inline-block">
+      <path d="M10 8v48M46 8L22 32l24 24"
+            stroke="url(#g1)"
+            stroke-width="8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            fill="none"
+            class="dash"
+            pathLength="360"/>
+    </svg>
+  </div>
+  <div class="brand"><span>MARK</span></div>
+</div>
+<!-- ===== END LOADER ===== -->
+
+<!-- Particle Canvas -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- MAIN CONTENT -->
+<div id="content" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+  <!-- NAV -->
+  <header class="py-4 fixed top-0 left-0 w-full z-50 px-4 md:px-8">
+    <nav class="nav-glass max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+      <div class="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-[#ff3aff] to-[#f53cf5] bg-clip-text text-transparent">G.Mark</div>
+      <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-white/80">
+        <li><a href="#home" class="hover:text-[#ff3aff] transition">Home</a></li>
+        <li><a href="#service" class="hover:text-[#ff3aff] transition">Services</a></li>
+        <li><a href="#about" class="hover:text-[#ff3aff] transition">About</a></li>
+        <li><a href="#project" class="hover:text-[#ff3aff] transition">Work</a></li>
+        <li><a href="#testimonials" class="hover:text-[#ff3aff] transition">Testimonials</a></li>
+      </ul>
+      <a href="#contact" class="btn-primary text-sm hidden md:inline-block">Let's Talk</a>
+      <button id="menuToggle" class="md:hidden text-2xl text-white/80"><i class="fas fa-bars"></i></button>
+    </nav>
+    <!-- mobile menu -->
+    <div id="mobileNav" class="hidden md:hidden nav-glass mt-2 p-4 flex flex-col gap-3 text-sm font-medium text-white/80">
+      <a href="#home">Home</a><a href="#service">Services</a><a href="#about">About</a><a href="#project">Work</a><a href="#testimonials">Testimonials</a><a href="#contact" class="btn-primary text-center">Let's Talk</a>
+    </div>
+  </header>
+
+<!-- HERO - Improved -->
+<section id="home" class="pt-32 pb-16 md:pt-40 md:pb-24 scroll-section relative overflow-hidden">
+  <!-- Background glow effect -->
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#ff3aff]/5 rounded-full blur-3xl pointer-events-none"></div>
+  
+  <div class="grid md:grid-cols-3 gap-8 items-center relative z-10">
+    <!-- left card - Stats & Quick Info -->
+    <div class="glass rounded-3xl p-4 space-y-4 order-2 md:order-1 hover:border-[#ff3aff]/30 transition-all duration-500 hover:-translate-y-1">
+      <div class="flex items-center gap-3">
+        <span class="w-3 h-3 bg-[#ff3aff] rounded-full animate-pulse"></span>
+        <span class="font-bold text-lg">G.Mark</span>
+        <span class="ml-auto text-xs bg-[#ff3aff]/20 text-[#ff3aff] px-3 py-1 rounded-full">Available</span>
+      </div>
+      
+    <!-- Profile Image - Full Width with Top Focus -->
+    <div class="w-full h-48 rounded-xl overflow-hidden bg-gradient-to-br from-[#ff3aff]/10 to-[#f53cf5]/10">
+      <img 
+        src="assets/mark-2.jpg" 
+        alt="G.Mark" 
+        class="w-full h-full object-cover object-top"
+      />
+    </div>
+      
+      <p class="text-sm text-white/70 leading-relaxed">Welcome to my digital space — I'm a passionate developer who turns complex problems into elegant, human-centered solutions.</p>
+      
+      <!-- Like counter with animation -->
+      <div class="flex items-center gap-3 text-sm bg-white/5 rounded-full px-4 py-2 w-fit">
+        <i class="fas fa-thumbs-up text-[#ff3aff] cursor-pointer hover:scale-110 transition-transform duration-300" id="likeBtn"></i>
+        <span id="likeCount" class="font-medium">1.2k</span>
+        <span class="text-white/40 text-xs">likes</span>
+      </div>
+      
+      <!-- Quick stats -->
+      <div class="grid grid-cols-3 gap-2 pt-2 border-t border-white/5">
+        <div class="text-center">
+          <p class="text-lg font-bold text-[#ff3aff]">3+</p>
+          <p class="text-xs text-white/40">Years Exp</p>
+        </div>
+        <div class="text-center">
+          <p class="text-lg font-bold text-[#ff3aff]">20+</p>
+          <p class="text-xs text-white/40">Projects</p>
+        </div>
+        <div class="text-center">
+          <p class="text-lg font-bold text-[#ff3aff]">100%</p>
+          <p class="text-xs text-white/40">Satisfaction</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- center hero - Main profile -->
+    <div class="md:col-span-1 flex flex-col items-center text-center order-1 md:order-2">
+      <!-- Animated ring around profile -->
+      <div class="relative">
+        <div class="absolute inset-0 rounded-full border-2 border-[#ff3aff]/20 animate-ping"></div>
+        <div class="absolute inset-[-8px] rounded-full border border-[#ff3aff]/10 animate-spin-slow"></div>
+        <div class="w-48 h-48 rounded-full bg-gradient-to-br from-[#ff3aff]/20 to-[#f53cf5]/20 flex items-center justify-center border-4 border-[#ff3aff]/30 overflow-hidden shadow-2xl shadow-[#ff3aff]/20">
+          <img src="assets/mark-1.png" alt="G.Mark" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%23ff3aff22%22/%3E%3Ctext x=%2228%22 y=%2262%22 font-family=%22Inter%22 font-size=%2238%22 fill=%22%23ff3aff%22 font-weight=%22800%22%3EG%3C/text%3E%3C/svg%3E'" />
+        </div>
+      </div>
+      
+      <h1 class="text-5xl md:text-6xl font-extrabold mt-6 tracking-tight bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">G.Mark</h1>
+      
+      <p class="text-lg font-medium text-white/80 mt-2">
+        I am <span class="gradient-text font-bold animated-text">Full Stack Developer</span>
+      </p>
+      
+      <!-- Tagline -->
+      <p class="text-sm text-white/40 max-w-xs mt-2">Building the future, one line of code at a time</p>
+      
+      <!-- CTA Buttons with hover effects -->
+      <div class="flex gap-4 mt-6 flex-wrap justify-center">
+        <a href="#project" class="btn-primary group relative overflow-hidden">
+          <span class="relative z-10">View Projects</span>
+          <span class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
+        </a>
+        <a href="#service" class="btn-outline group relative overflow-hidden">
+          <span class="relative z-10">Services</span>
+          <span class="absolute inset-0 bg-[#ff3aff]/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
+        </a>
+      </div>
+      
+      <!-- Trust indicators -->
+      <div class="flex items-center gap-6 mt-6 text-xs text-white/30">
+        <span class="flex items-center gap-1"><i class="fas fa-check-circle text-green-400"></i> Verified</span>
+        <span class="flex items-center gap-1"><i class="fas fa-shield-alt text-[#ff3aff]"></i> Secure</span>
+        <span class="flex items-center gap-1"><i class="fas fa-clock text-blue-400"></i> 24/7</span>
+      </div>
+    </div>
+    
+    <!-- right card - Social & Expertise -->
+    <div class="glass rounded-3xl p-4 space-y-4 order-3 hover:border-[#ff3aff]/30 transition-all duration-500 hover:-translate-y-1">
+      <div class="flex items-center justify-between">
+        <p class="text-sm font-semibold text-[#ff3aff]">G.Mark — <span class="font-normal text-white/80">UI/UX & Full Stack</span></p>
+        <span class="text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded-full">Online</span>
+      </div>
+      
+      <p class="text-sm text-white/70 leading-relaxed">My journey started with a single line of code. Today, I craft digital experiences that are fast, beautiful, and built to scale.</p>
+      
+      <!-- Social icons with tooltips -->
+      <div class="flex gap-4 text-2xl text-white/70">
+        <div class="relative group">
+          <i class="fab fa-instagram hover:text-[#ff3aff] cursor-pointer transition-all duration-300 hover:scale-110" onclick="window.open('https://www.instagram.com/mark__dir/','_blank')"></i>
+          <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-[10px] bg-black/80 text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Instagram</span>
+        </div>
+        <div class="relative group">
+          <i class="fab fa-youtube hover:text-[#ff3aff] cursor-pointer transition-all duration-300 hover:scale-110" onclick="window.open('https://www.youtube.com/@Monixi_Technology','_blank')"></i>
+          <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-[10px] bg-black/80 text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">YouTube</span>
+        </div>
+        <div class="relative group">
+          <i class="fab fa-facebook hover:text-[#ff3aff] cursor-pointer transition-all duration-300 hover:scale-110" onclick="window.open('https://web.facebook.com/gisubizo.marc.71','_blank')"></i>
+          <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-[10px] bg-black/80 text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Facebook</span>
+        </div>
+        <div class="relative group">
+          <i class="fab fa-github hover:text-[#ff3aff] cursor-pointer transition-all duration-300 hover:scale-110" onclick="window.open('https://github.com/','_blank')"></i>
+          <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 text-[10px] bg-black/80 text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">GitHub</span>
+        </div>
+      </div>
+            
+      <!-- Image with overlay text -->
+      <div class="relative w-full h-48 rounded-xl overflow-hidden bg-gradient-to-br from-[#ff3aff]/10 to-[#f53cf5]/10 group">
+        <img 
+          src="assets/mark-3.png" 
+          alt="G.Mark" 
+          class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
+          onerror="this.style.display='none'"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
+          <span class="text-sm text-white/90 font-medium flex items-center gap-2">
+            <span class="w-1 h-4 bg-[#ff3aff] rounded-full"></span>
+            ✦ Creative mind
+          </span>
+        </div>
+      </div>
+      
+      <p class="text-sm text-white/70 italic">"Design thinking + technical craft = digital experiences that make a difference."</p>
+      <div>
+        <a href="#about" class="btn-outline1 w-full text-center text-sm group relative overflow-hidden">
+           <span class="relative z-10">About me</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- SERVICES -->
+  <section id="service" class="py-16 scroll-section">
+    <h2 class="section-title text-center mb-4">Services I Offer</h2>
+    <p class="text-center text-white/50 max-w-xl mx-auto mb-12">End-to-end solutions — from concept to deployment, with a focus on quality and user delight.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="glass rounded-3xl p-8 text-center hover:border-[#ff3aff]/30 transition group">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-xl overflow-hidden bg-gradient-to-br from-[#ff3aff]/10 to-[#f53cf5]/10 flex items-center justify-center">
+          <img src="assets/image/illustration.png" alt="Web Design" class="w-full h-full object-contain" onerror="this.style.display='none'" />
+        </div>
+        <h3 class="font-bold text-xl">Website Design</h3>
+        <p class="text-sm text-white/60 mt-2">Clean code, creative UI, and user-first experiences. Custom-coded websites that are fast, responsive, and built to scale.</p>
+      </div>
+      <div class="glass rounded-3xl p-8 text-center hover:border-[#ff3aff]/30 transition group">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-xl overflow-hidden bg-gradient-to-br from-[#ff3aff]/10 to-[#f53cf5]/10 flex items-center justify-center">
+          <img src="assets/image/ui-design.png" alt="Graphic Design" class="w-full h-full object-contain" onerror="this.style.display='none'" />
+        </div>
+        <h3 class="font-bold text-xl">Graphic Design</h3>
+        <p class="text-sm text-white/60 mt-2">Captivating videos and Graphic that tell your story from concept to final cut. Perfect for promos, music, events, or social media.</p>
+      </div>
+      <div class="glass rounded-3xl p-8 text-center hover:border-[#ff3aff]/30 transition group">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-xl overflow-hidden bg-gradient-to-br from-[#ff3aff]/10 to-[#f53cf5]/10 flex items-center justify-center">
+          <img src="assets/image/mobile-app.png" alt="Social Media" class="w-full h-full object-contain" onerror="this.style.display='none'" />
+        </div>
+        <h3 class="font-bold text-xl">Social Media Services</h3>
+        <p class="text-sm text-white/60 mt-2">Boost your online reach with tailored social media strategies and content. Helping you build a stronger, more connected digital presence.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-16 grid md:grid-cols-2 gap-12 items-center scroll-section">
+    <div>
+      <h2 class="section-title leading-[1.1]">Learn More <br /><span class="gradient-text">About Me</span></h2>
+      <p class="text-white/70 text-sm leading-relaxed mt-4">I'm a software developer with experience in web development using TypeScript and React, mobile app development with React Native, and software development using C and C++. At my face time I play the Guitar, record videos and play computer games. Ready to bring your ideas to life with expert design and development – let's create something amazing together!</p>
+      <a href="https://www.youtube.com/@Monixi_Technology" target="_blank" class="btn-primary inline-block mt-6">View My Youtube Channel</a>
+    </div>
+    <div class="flex justify-center">
+      <div class="w-64 h-64 rounded-full overflow-hidden bg-gradient-to-br from-[#ff3aff]/20 to-[#f53cf5]/20 border-4 border-[#ff3aff]/20">
+        <img src="assets/mark-1.png" alt="G.Mark" class="w-full h-full object-cover" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%23ff3aff22%22/%3E%3Ctext x=%2228%22 y=%2262%22 font-family=%22Inter%22 font-size=%2238%22 fill=%22%23ff3aff%22 font-weight=%22800%22%3EG%3C/text%3E%3C/svg%3E'" />
+      </div>
+    </div>
+  </section>
+
+<!-- PROJECTS - Updated with clean skeleton loaders -->
+<section id="project" class="py-16 scroll-section">
+  <div class="section-header text-center mb-12">
+    <h1 class="section-title">Featured Work</h1>
+    <p class="text-white/50 max-w-xl mx-auto">Explore my latest digital creations — each project crafted with care and attention to user experience</p>
+  </div>
+
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Project 1 - Monixi News -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="1">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project8.png" 
+          alt="Monixi News" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <!-- Clean Skeleton Loader -->
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">React</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Node.js</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">MongoDB</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">Monixi News</h2>
+        <p class="project-description text-sm text-white/60 mt-1">A comprehensive news platform delivering real-time local and international news. Stay informed with trusted coverage on politics, business, technology, and current events affecting Rwanda and the world.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.5</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>12</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>2.3k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <a href="https://www.monixinews.com/" target="_blank" class="flex-1 text-center bg-[#ff3aff] text-black font-medium px-4 py-2 rounded-full hover:scale-105 transition">Live Demo</a>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 - MONIXI Electronics -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="2">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project1.png" 
+          alt="MONIXI Electronics" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">HTML5</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">CSS3</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">JavaScript</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">MONIXI Electronics</h2>
+        <p class="project-description text-sm text-white/60 mt-1">A streamlined e-commerce experience designed for effortless online shopping. Browse, compare, and purchase electronics with confidence through an intuitive and user-friendly interface.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.2</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>8</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>1.8k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <a href="https://monixielectronics.com/" target="_blank" class="flex-1 text-center bg-[#ff3aff] text-black font-medium px-4 py-2 rounded-full hover:scale-105 transition">Live Demo</a>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 - ZAP Downloader -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="3">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project5.png" 
+          alt="ZAP Downloader" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">React</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Firebase</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Stripe</span>
+          <span class="tag bg-yellow-400/20 text-yellow-300 px-3 py-1 rounded-full text-xs"><i class="fas fa-rocket"></i> Coming Soon</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">ZAP Downloader <span class="text-xs text-yellow-300"><i class="fas fa-rocket"></i>Coming Soon</span></h2>
+        <p class="project-description text-sm text-white/60 mt-1">A clean, ad-free video downloader designed for simplicity. Save your favorite videos effortlessly with a distraction-free experience that puts user needs first.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.7</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>15</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>3.1k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <span class="flex-1 text-center text-white/40 border border-white/10 px-4 py-2 rounded-full cursor-not-allowed">Coming Soon</span>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 - Monixi Movies -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="4">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project6.png" 
+          alt="Monixi Movies" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Vue.js</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Express</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">MongoDB</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">Monixi Movies</h2>
+        <p class="project-description text-sm text-white/60 mt-1">Your go-to destination for streaming entertainment. Discover and enjoy a curated collection of films with a smooth, engaging viewing experience designed for movie lovers.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.8</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>10</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>2.7k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <a href="https://www.moniximovies.com/" target="_blank" class="flex-1 text-center bg-[#ff3aff] text-black font-medium px-4 py-2 rounded-full hover:scale-105 transition">Live Demo</a>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 5 - Nyambo AI -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="5">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project7.png" 
+          alt="Nyambo AI" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Python</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Django</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">REST API</span>
+          <span class="tag bg-blue-400/20 text-blue-300 px-3 py-1 rounded-full text-xs"><i class="fas fa-clock"></i> updating</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">Nyambo AI <span class="text-xs text-blue-300"><i class="fas fa-clock"></i> updating</span></h2>
+        <p class="project-description text-sm text-white/60 mt-1">An intelligent language processing tool designed to understand and assist with natural communication. Experience high-quality video and audio downloads in up to 4K resolution with zero interruptions.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.6</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>20</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>5.2k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <a href="https://inyambo.app/" target="_blank" class="flex-1 text-center bg-[#ff3aff] text-black font-medium px-4 py-2 rounded-full hover:scale-105 transition">Live Demo</a>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 6 - MWIMBAJI Timothy -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="6">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project3.jpeg" 
+          alt="MWIMBAJI Timothy" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Angular</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">Node.js</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">PostgreSQL</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">MWIMBAJI Timothy</h2>
+        <p class="project-description text-sm text-white/60 mt-1">A premium musical instrument marketplace connecting musicians with high-quality gear from around the world. Enjoy free setup guidance with every purchase to help you start playing right away.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.4</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>9</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>1.9k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <a href="https://mwimbajitimothy.com/" target="_blank" class="flex-1 text-center bg-[#ff3aff] text-black font-medium px-4 py-2 rounded-full hover:scale-105 transition">Live Demo</a>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 7 - Guitar Gallery -->
+    <div class="box glass rounded-3xl overflow-hidden hover:border-[#ff3aff]/20 transition group" data-project="7">
+      <div class="image-container relative h-52 overflow-hidden bg-[#1a1a1a]">
+        <img 
+          src="img/project4.jpeg" 
+          alt="Guitar Gallery" 
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+          loading="lazy"
+          onload="this.style.display='block'; this.previousElementSibling.style.display='none';"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="skeleton-loader absolute inset-0 bg-gradient-to-r from-[#1a1a1a] via-[#2a2a2a] to-[#1a1a1a] bg-[length:200%_100%] animate-pulse hidden items-center justify-center">
+          <div class="flex flex-col items-center gap-3">
+            <div class="w-12 h-12 rounded-full bg-white/5"></div>
+            <div class="w-24 h-2 bg-white/5 rounded-full"></div>
+            <div class="w-16 h-2 bg-white/5 rounded-full"></div>
+          </div>
+        </div>
+      </div>
+      <div class="p-5">
+        <div class="project-tags flex flex-wrap gap-2 mb-3">
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">HTML5</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">CSS3</span>
+          <span class="tag bg-white/10 px-3 py-1 rounded-full text-xs">jQuery</span>
+        </div>
+        <h2 class="project-title font-bold text-xl">Guitar Gallery</h2>
+        <p class="project-description text-sm text-white/60 mt-1">Discover and explore a curated collection of professional modern guitars. Each instrument is presented with detailed specifications, sound profiles, and expert insights to help you find your perfect match.</p>
+        <div class="project-stats flex gap-6 mt-4 py-3 border-y border-white/10">
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-star text-yellow-400"></i> <span>4.3</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-code-branch"></i> <span>7</span></div>
+          <div class="stat flex items-center gap-2 text-sm"><i class="fas fa-eye"></i> <span>1.5k</span></div>
+        </div>
+        <div class="project-links flex gap-3 mt-4">
+          <a href="https://mwimbajitimothy.com/guitar.html" target="_blank" class="flex-1 text-center bg-[#ff3aff] text-black font-medium px-4 py-2 rounded-full hover:scale-105 transition">Live Demo</a>
+          <a href="#" class="flex-1 text-center border border-white/20 text-white/70 px-4 py-2 rounded-full hover:bg-white/10 transition">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS – dual carousel -->
+<section id="testimonials" class="py-16 scroll-section">
+  <div class="text-center mb-10">
+    <h2 class="section-title">What People Say</h2>
+    <p class="text-white/50">Trusted by clients and collaborators worldwide</p>
+  </div>
+  
+  <!-- carousel 1 (left) -->
+  <div class="carousel-wrapper mb-6">
+    <div class="carousel-track" id="trackLeft">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">John Doe</p>
+            <p class="text-xs text-white/40">CEO, TechFlow</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"G.Mark delivered a stunning platform that increased our conversion by 40%. Absolute genius."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Sarah M.</p>
+            <p class="text-xs text-white/40">Product Lead</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"Incredible attention to detail. The UI/UX work was world‑class — our users love it."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Alex K." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Alex K.</p>
+            <p class="text-xs text-white/40">Startup Founder</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"From concept to deployment in record time. G.Mark is the developer you want on your team."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- Testimonial 4 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Jane R." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Jane R.</p>
+            <p class="text-xs text-white/40">Creative Director</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"The mobile app he built for us is smooth, fast, and beautiful. Highly recommend!"</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- duplicate for seamless loop -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">John Doe</p>
+            <p class="text-xs text-white/40">CEO, TechFlow</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"G.Mark delivered a stunning platform that increased our conversion by 40%. Absolute genius."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Sarah M.</p>
+            <p class="text-xs text-white/40">Product Lead</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"Incredible attention to detail. The UI/UX work was world‑class — our users love it."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- carousel 2 (right) -->
+  <div class="carousel-wrapper">
+    <div class="carousel-track carousel-track-right" id="trackRight">
+      <!-- Testimonial 5 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Mike C." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Mike C.</p>
+            <p class="text-xs text-white/40">CTO, CloudNine</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"His backend architecture is rock‑solid. We scaled to 100k users without a hiccup."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- Testimonial 6 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Laura W." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Laura W.</p>
+            <p class="text-xs text-white/40">Marketing Lead</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"G.Mark transformed our digital presence. The site is now our best sales tool."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- Testimonial 7 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="David T." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">David T.</p>
+            <p class="text-xs text-white/40">Investor</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"One of the most talented full‑stack developers I've worked with. A true asset."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- Testimonial 8 -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Priya M." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Priya M.</p>
+            <p class="text-xs text-white/40">Product Manager</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"He understands business goals and translates them into elegant code. Exceptional."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <!-- duplicate for seamless loop -->
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Mike C." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Mike C.</p>
+            <p class="text-xs text-white/40">CTO, CloudNine</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"His backend architecture is rock‑solid. We scaled to 100k users without a hiccup."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+      
+      <div class="testimonial-card">
+        <div class="flex items-center gap-3">
+          <div class="avatar overflow-hidden">
+            <img src="https://randomuser.me/api/portraits/women/90.jpg" alt="Laura W." class="w-full h-full object-cover">
+          </div>
+          <div>
+            <p class="font-semibold">Laura W.</p>
+            <p class="text-xs text-white/40">Marketing Lead</p>
+          </div>
+        </div>
+        <p class="text-sm text-white/70 mt-3">"G.Mark transformed our digital presence. The site is now our best sales tool."</p>
+        <div class="flex text-yellow-400 text-sm mt-2">★★★★★</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-16 scroll-section">
+    <h2 class="section-title text-center">Let's Connect</h2>
+    <p class="text-center text-white/50 max-w-xl mx-auto mt-2">Ready to bring your ideas to life with expert design and development – Let's create something amazing together!</p>
+    <div class="grid md:grid-cols-3 gap-8 mt-10 glass rounded-3xl p-8">
+      <div class="space-y-4">
+        <h3 class="font-bold text-lg">With me</h3>
+        <div class="flex gap-4 text-2xl text-white/70">
+          <i class="fab fa-instagram hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://www.instagram.com/mark__dir/','_blank')"></i>
+          <i class="fab fa-youtube hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://www.youtube.com/@Monixi_Technology','_blank')"></i>
+          <i class="fab fa-facebook hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://web.facebook.com/gisubizo.marc.71','_blank')"></i>
+          <i class="fab fa-whatsapp hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://wa.me/250793170139','_blank')"></i>
+        </div>
+        <div><h4 class="font-semibold">Location</h4><p class="text-sm text-white/50">Kigali-Rwanda · Available anywhere!</p></div>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="assets/image/call.png" alt="Contact" class="w-48 h-48 object-contain" onerror="this.style.display='none'" />
+      </div>
+      <div class="space-y-4">
+        <div class="flex items-center gap-3"><i class="fas fa-phone text-[#ff3aff] text-xl"></i><div><h4 class="font-semibold">Call me</h4><p class="text-sm text-white/50">+250 793 170 139</p></div></div>
+        <div><h4 class="font-semibold">Hours</h4><p class="text-sm text-white/50">Monday-Sunday · 8am-12pm</p></div>
+        <p class="text-sm text-white/50">We'd love to hear from you. reach out and we'll get back to you with Feedback!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/5 py-10 mt-8 text-sm text-white/40">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div><h3 class="font-bold text-white">G.Mark</h3><p class="text-xs mt-1">Full Stack Developer · UI/UX Designer</p></div>
+      <div><ul class="flex flex-wrap gap-4"><li><a href="#home" class="hover:text-white">Home</a></li><li><a href="#service" class="hover:text-white">Services</a></li><li><a href="#about" class="hover:text-white">About</a></li><li><a href="#project" class="hover:text-white">Work</a></li><li><a href="#testimonials" class="hover:text-white">Testimonials</a></li></ul></div>
+      <div class="flex gap-4 text-xl"><i class="fab fa-instagram hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://www.instagram.com/mark__dir/','_blank')"></i><i class="fab fa-youtube hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://www.youtube.com/@Monixi_Technology','_blank')"></i><i class="fab fa-facebook hover:text-[#ff3aff] cursor-pointer" onclick="window.open('https://web.facebook.com/gisubizo.marc.71','_blank')"></i></div>
+    </div>
+    <p class="text-center text-xs mt-8 border-t border-white/5 pt-6">- Designed by <a href="#" class="text-[#ff3aff]">Monixi Technology</a> - <br />&copy; Copyright 2025 | all right Reserved</p>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTopBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- AI FAB + CHAT -->
+  <button class="ai-fab" onclick="toggleChat()"><i class="fas fa-robot"></i></button>
+  <div class="ai-chat" id="chat">
+    <div class="header"><span>AI Developer Assistant</span><button onclick="toggleChat()" class="text-black/70 text-xl">✕</button></div>
+    <div class="messages" id="messages">
+      <div class="msg ai">👋 Hey there! This is Mark's portfolio. Need a developer? Chat with my AI assistant or contact me directly!</div>
+    </div>
+    <div class="input-area">
+      <input id="chatInput" placeholder="Type your message…" />
+      <button onclick="sendChat()" aria-label="Send message" style="background: none; border: none; color: #ff3aff; font-size: 1.4rem; cursor: pointer; padding: 0 12px; transition: transform 0.2s;">
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/ai-script.js"></script>
+</body>
+</html>
